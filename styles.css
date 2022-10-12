@@ -137,7 +137,27 @@ h3 {
     color: #6b6a6a;
 }
 
+.iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    
+}
 
+.iframe-container iframe {
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    
+}
+
+@media (min-width: 767px){
+    .iframe-container iframe {
+        padding: 3.5%;
+    }
+} 
 
 
 /* Sign Up */
