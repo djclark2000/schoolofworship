@@ -179,10 +179,22 @@ h2 {
     background: linear-gradient(-251deg, rgba(76,0,  143,1) 14%, rgba(20,0,83,1) 100%, rgba(76,11, 129,1) 100%); */
     color: #fff;
     text-align: center;
-    padding: 50px 100px;
-    padding-bottom: ;
+    
+}
+
+@media (min-width: 768px) {
+    .get {
+        padding: 50px 100px; 
+    }
 
 }
+
+@media (max-width: 767px) {
+    .get {
+        padding: 50px 100px 20px;
+    }
+}
+
 
 
 .btn-1 {
